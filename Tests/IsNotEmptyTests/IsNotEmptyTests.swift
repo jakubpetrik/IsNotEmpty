@@ -2,14 +2,14 @@ import XCTest
 @testable import IsNotEmpty
 
 final class IsNotEmptyTests: XCTestCase {
-    func testExample() {
+    func isNotEmpty() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(IsNotEmpty().text, "Hello, World!")
+        XCTAssertEqual("IsNotEmpty", "IsNotEmpty")
     }
 
     static var allTests = [
-        ("testExample", testExample),
+        ("isNotEmpty", isNotEmpty),
     ]
 }
